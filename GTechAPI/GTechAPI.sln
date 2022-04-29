@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GTechAPI", "GTechAPI.csproj", "{BA2B1FA7-6603-4215-B22B-308B3801D862}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{53796312-C63F-4D29-8A97-A1F26645FDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsGTL", "..\UnitTestsGTL\UnitTestsGTL.csproj", "{FF4022A5-F6D6-4453-8B7F-4056B96D1E1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA2B1FA7-6603-4215-B22B-308B3801D862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2B1FA7-6603-4215-B22B-308B3801D862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2B1FA7-6603-4215-B22B-308B3801D862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2B1FA7-6603-4215-B22B-308B3801D862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4022A5-F6D6-4453-8B7F-4056B96D1E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4022A5-F6D6-4453-8B7F-4056B96D1E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4022A5-F6D6-4453-8B7F-4056B96D1E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4022A5-F6D6-4453-8B7F-4056B96D1E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF4022A5-F6D6-4453-8B7F-4056B96D1E1F} = {53796312-C63F-4D29-8A97-A1F26645FDF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C9489F8-ED73-4C91-937E-88B833C7A3C1}
+	EndGlobalSection
+EndGlobal
